@@ -1,2 +1,2 @@
 # LandingPage-SistemaDeChamado
-Landing Page - de um Ssistema de Chamados 
+Landing Page - de um Sistema de Chamados 
