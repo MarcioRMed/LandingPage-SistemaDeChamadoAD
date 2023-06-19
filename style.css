@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1{
+  padding-top: 20px;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: red; */
+}
+
+/* Estilos do menu de navegação */
+.navigation {
+  background-color: #333;
+  color: #fff;
+  /* background-color: rgb(43, 0, 255); */
+  
+}
+
+.navigation .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  /* background-color: rgb(0, 255, 64); */
+
+}
+
+.navigation .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation .menu ul li {
+  margin-left: 20px;
+}
+
+.navigation .menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation .button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Estilos do conteúdo */
+#home {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+#home .wrapper{
+  display: flex;
+  padding-top: 8rem;
+  align-items: center;
+  
+  /* padding-right: 5rem; */
+}
+.col-a{
+  /* flex-basis: 60%; */
+  /* padding-right: 20px; */
+background-color: red;
+margin-right: 1rem;
+}
+
+.col-b {
+  margin-left: 1rem;
+  /* flex-basis: 40%; */
+  /* padding-right: 20px; */
+  background-color: rgb(0, 255, 106);
+}
+
+.col-b img{
+/* width: 40%; */
+max-width: 100%;
+height: auto;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#home h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#home h3 {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Estilos das seções */
+section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-bottom: 1px; */
+}
