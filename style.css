@@ -164,34 +164,59 @@ max-height:100%;
  
 }
 
-
+#planos{
+  /* width: 100%vw; */
+  height: auto;
+  background-color: #003a7b;
+  /* background: linear-gradient(to bottom, #003a7b, #f0f0f0); */
+  /* background: linear-gradient(to bottom right, #003a7b, #a8a8a8); */
+}
 
 #planos .cards{
   display: flex;
-  /* margin: 0 auto; */
-  /* width: fit-content; */
   justify-content: space-around;
   padding: 2rem;
   margin: 2rem;
-  /* width: 100px; */
-  background-color: red;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card1 .card2 .card3{
-  /* justify-items: center;   */
-  background-color: green;
-  /* width: auto; */
-  /* height: auto; */
+.card1,  .card2, .card3 {
+  
+  width: auto;
+  background: linear-gradient(to bottom,  #003a7b, #a8a8a8);
+  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  
 }
 
 #planos h2 {
-  color: #003a7b;
-  font-size: 2.5rem;
+  text-align: center;  
+  color: #fff;
+  font-size: 24px;
   margin: 1rem;
   margin-bottom: 10px;
 }
 
+.cards p{
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+}
 
+.card table{
+  width: 100%;
+}
+
+.card table td{
+  padding: 8px;
+}
 
 
 #contatenos{
