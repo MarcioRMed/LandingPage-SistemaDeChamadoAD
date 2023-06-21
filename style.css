@@ -5,8 +5,6 @@
   
 }
 
-
-
 *{
   margin: 0;
   padding: 0;
@@ -19,7 +17,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
 h1{
   padding-top: 20px;
   font-size: 18px;
@@ -30,12 +27,10 @@ h3{
   margin-bottom: 10px;
 }
 
-
 .logo img {
   width: 54px;
   padding-right: 0.5rem ;
 }
-
 
 .wrapper {
   max-width: 1200px;
@@ -54,9 +49,9 @@ h3{
 
 .navigation .wrapper {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  height: 60px;
+  /* height: 60px; */
   /* background-color: rgb(0, 255, 64); */
 
 }
@@ -65,24 +60,12 @@ h3{
   width: 54px;
 }
 
-.navigation .menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
 
-.navigation .menu ul li {
-  margin-left: 20px;
-  /* background-color: rgb(43, 0, 255); */
+.cadastreSeLogin{
+  padding: 10px;
 
 }
 
-.navigation .menu ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-}
 
 .navigation .button {
   background-color: #fff;
@@ -91,7 +74,7 @@ h3{
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
-  margin: 5px;
+  margin: 0.5em;
 }
 
 
@@ -194,11 +177,8 @@ section {
 
 footer{
   background-color: #333;
-  /* text-align: center; */
   font-size: 14px;
-  /* padding:100px ; */
-
-}
+ }
 
 
 footer .logo img{
@@ -208,26 +188,6 @@ footer .logo img{
   align-items: flex-start;
 }
 
-footer .menu ul li a{
-justify-content: center;
-  background-color: green;
-  background-color: #333;
-
-
-  color: #fff;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  height: 60px;
-  /* list-style: none; */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* text-decoration: none; */
-  font-size: 36px;
-
-}
-
-
 
 footer .registered_copy {
 display: flex;
@@ -235,7 +195,6 @@ justify-content: flex-end;
 align-items: center;
 color: #fff;
 padding: 5rem;
-
-  background-color:#333;
+background-color:#333;
   
 }
