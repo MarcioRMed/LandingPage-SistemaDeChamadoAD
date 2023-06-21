@@ -23,8 +23,20 @@ h1{
   margin-bottom: 10px;
 }
 
+
+
 h3{
   margin-bottom: 10px;
+}
+
+
+.btn-primary{
+  font-size: 14px;
+}
+
+.btn-outline-primary{
+  font-size: 14px;
+  margin-left: 0.5rem;
 }
 
 .logo img {
@@ -49,21 +61,13 @@ h3{
 
 .navigation .wrapper {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
-  /* height: 60px; */
   /* background-color: rgb(0, 255, 64); */
 
 }
 
 .navigation .logo img {
   width: 54px;
-}
-
-
-.cadastreSeLogin{
-  padding: 10px;
-
 }
 
 
@@ -76,8 +80,6 @@ h3{
   font-weight: 600;
   margin: 0.5em;
 }
-
-
 
 /* Estilos do conteúdo */
 #home{
@@ -94,8 +96,8 @@ h3{
   align-items: center;
   /* background-color: red; */
   
-  
 }
+
 .col-a{
   padding-right: 20px;
   padding-left: 20px;
@@ -122,6 +124,7 @@ max-height:100%;
 }
 
 #home h2 {
+  /* color: #003a7b; */
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
@@ -158,15 +161,44 @@ max-height:100%;
 
 #recursos .wrapper .content{
   background-color: green;
+ 
+}
+
+
+
+
+#contatenos{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+#contatenos h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
   
 }
+
+#contatenos h2 {
+  color: #003a7b;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#contatenos h3 {
+  font-size: 1rem;
+  color: #888;
+}
+
 
 
 
 /* Estilos das seções */
 section {
   height: 500px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -174,12 +206,10 @@ section {
   /* border-bottom: 1px; */
 }
 
-
 footer{
   background-color: #333;
   font-size: 14px;
  }
-
 
 footer .logo img{
   margin: 1rem;
@@ -188,13 +218,12 @@ footer .logo img{
   align-items: flex-start;
 }
 
-
 footer .registered_copy {
 display: flex;
 justify-content: flex-end;
 align-items: center;
 color: #fff;
-padding: 5rem;
+padding: 1rem;
 background-color:#333;
   
 }
