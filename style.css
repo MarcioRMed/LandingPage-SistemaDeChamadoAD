@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 h1{
@@ -46,22 +47,19 @@ h3{
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  /* background-color: red; */
+ 
 }
 
 /* Estilos do menu de navegação */
 .navigation {
   background-color: #333;
   color: #fff;
-  /* background-color: rgb(43, 0, 255); */
-  
 }
 
 .navigation .wrapper {
   display: flex;
   justify-content: space-between;
-  /* background-color: rgb(0, 255, 64); */
-
+  
 }
 
 .navigation .logo img {
@@ -95,42 +93,40 @@ h3{
   display: flex;
   padding-top: 3rem;
   align-items: center;
-  /* background-color: red; */
-  
+    
 }
 
 .col-a{
-  padding-right: 20px;
-  padding-left: 20px;
-  /* background-color: red; */
+ /* display: flex; */
+  padding-right: 1remx;
+  padding-left: 1rem;
   margin-right: 1rem;
 }
 
 .col-b {
+  display: flex;
   max-width: 100%;
 
 }
 
 .col-b img{
-/* width: 40%; */
 max-width: 100%;
 max-height:100%;
-/* height: auto; */
 }
 
 #home h1 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 10px;
   
 }
 
 #home h2 {
-  /* color: #003a7b; */
-  font-size: 2.5rem;
+   font-size: 2em;
   margin-bottom: 10px;
 }
 
 #home h3 {
+  /* display: flex; */
   font-size: 2rem;
   color: #888;
 }
@@ -138,27 +134,30 @@ max-height:100%;
 
 /* RECURSOS---------------------------------------------- */
 
-
-#recursos h3{
-  font-size: 1rem;
-  color: #888;
-}
-
 #recursos{
-  
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f2f2f2;
+
 }
 
+#recursos h5 {
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+#recursos h3{
+  font-size: 1rem;
+  color: #888;
+}
+/* 
 #recursos .wrapper{
   display: flex; 
   padding-top: 3rem;
   align-items: center;
-  /* background-color: red; */
-}
+} */
 
 #recursos li{
   padding-bottom: 10px;
@@ -173,13 +172,15 @@ max-height:100%;
 /* PLANOS---------------------------------------------- */
 
 #planos{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f2f2f2;
 
-  /* width: 100%vw; */
-  height: auto;
-  /* background-color: #003a7b; */
-  /* background: linear-gradient(to bottom, #003a7b, #f0f0f0); */
-  /* background: linear-gradient(to bottom right, #003a7b, #a8a8a8); */
+
+  /* height: auto; */
+
 }
 
 #planos .cards{
@@ -222,6 +223,11 @@ max-height:100%;
   /* font-size: 24px; */
   /* margin: 1rem; */
   padding-bottom: 2rem;
+}
+
+#planos h5 {
+  padding-bottom: 2rem;
+  font-weight: 600;
 }
 
 #planos p{
@@ -277,13 +283,13 @@ max-height:100%;
 
 /* Estilos das seções */
 section {
-  height: 500px;
+  /* height: 5px; */
   /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: #fff; */
   margin-bottom: 10px;
-  /* border-bottom: 1px; */
+  
 }
 
 
@@ -292,7 +298,7 @@ section {
 
 footer{
   background-color: #333;
-  font-size: 14px;
+  font-size: 20px;
  }
 
 footer .logo img{
@@ -310,4 +316,32 @@ color: #fff;
 padding: 1rem;
 background-color:#333;
   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+  body{
+    /* font-size: 14px; */
+    background-color: red;
+  }
+
+
+  #home h2{
+    font-size: 2em;
+  }
+  
+  #home h3{
+    font-size: 1rem;
+  }
 }
