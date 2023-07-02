@@ -433,12 +433,57 @@ footer h6{
 
 }
 
-/* footer h6 .wrapper{
-  padding:0px;
-} */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  z-index: 999;
+  font-size: 24px;
+}
 
+.whatsapp-icon:hover {
+  animation: shake3856 0.3s linear infinite both;
+ }
 
-
+ @keyframes shake3856 {
+  0% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ 
+  20% {
+   -webkit-transform: translate(-2px, 2px);
+   transform: translate(-2px, 2px);
+  }
+ 
+  40% {
+   -webkit-transform: translate(-2px, -2px);
+   transform: translate(-2px, -2px);
+  }
+ 
+  60% {
+   -webkit-transform: translate(2px, 2px);
+   transform: translate(2px, 2px);
+  }
+ 
+  80% {
+   -webkit-transform: translate(2px, -2px);
+   transform: translate(2px, -2px);
+  }
+ 
+  100% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ }
+ 
 
 
 
