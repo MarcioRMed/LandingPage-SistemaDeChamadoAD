@@ -15,13 +15,13 @@
 
     
 
-<nav class="navigation">
-
+<nav class="navigation" >
     <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="logo" href="#top"></a>
         <!-- class wrapper - customizada e criada por mim -->
         <div class="container-fluid wrapper">
            
-            <a class="logo" href="#home"> <img src="logo.png" alt="imagem do logotipo"></a>
+            <a class="logo" href="#home"> <img src="img/logo.png" alt="imagem do logotipo"></a>
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,13 +45,13 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  MENU
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#funcionalidades">Funcionalidades</a></li>
+                  <li><a class="dropdown-item" href="#planos">Planos</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#contatenos">Contate-nos</a></li>
                 </ul>
               </li>
               
@@ -90,8 +90,8 @@
                     <div class="col-sm">
                         <div class="col-a">
                             <h2>Simplifique seu trabalho e aumente sua produtividade</h>
-                            <h3>Nos temos a solução perfeita para gerenciar a sua equipe de suporte e atendimento ao cliente de forma eficiente e organizada.</h3>
-                            <h4>Experimente agora mesmo e descubra como podemos transformar a maneira como você lida com o suporte ao cliente.</h4>
+                            <h3>Nós temos a solução perfeita para gerenciar a sua equipe de suporte e atendimento ao cliente, de forma eficiente e organizada.</h3>
+                            <h4>Experimente e descubra como podemos transformar a forma como você interage com seus clientes de maneira mais simples e otimizada.</h4>
 
                             <a class="btn btn-primary" href="">Cadastre-se</a>
 
@@ -161,7 +161,7 @@
 
     <section id="planos">
         <div class="wrapper">
-
+            <div class="col-sm">
             <div class="section">
                 
                 <i class="fa-solid fa-tags"></i>
@@ -191,19 +191,19 @@
                             <tr>
                                 <!-- <td>Atendentes</td> -->
                                 <td>Atendentes</td>
-                                <td class="green">1</td>
+                                <td class="check-green">1</td>
                             </tr>
                             <tr>
                                 <td>Usuários</td>
-                                <td class="green">5</td>
+                                <td class="check-green">5</td>
                             </tr>
                             <tr>
                                 <td>Departamentos</td>
-                                <td  class="green">1</td>
+                                <td  class="check-green">1</td>
                             </tr>
                             <tr>
                                 <td>Chamados</td>
-                                <td class="green">100/mês</td>
+                                <td class="check-green">100/mês</td>
                             </tr>
                             <tr>
                                 <td>Exportação de dados</td>
@@ -233,19 +233,19 @@
                         <tbody>
                             <tr>
                                 <td>Atendentes</td>
-                                <td class="green">5</td>
+                                <td class="check-green">5</td>
                             </tr>
                             <tr>
                                 <td>Usuários</td>
-                                <td class="green">100</td>
+                                <td class="check-green">100</td>
                             </tr>
                             <tr>
                                 <td>Departamentos</td>
-                                <td class="green">30</td>
+                                <td class="check-green">30</td>
                             </tr>
                             <tr>
                                 <td>Chamados</td>
-                                <td class="green">ilimitados</td>
+                                <td class="check-green">ilimitados</td>
                             </tr>
                             <tr>
                                 <td>Exportação de dados</td>
@@ -309,19 +309,19 @@
                         <tbody>
                             <tr>
                                 <td>Atendentes</td>
-                                <td class="green">100</td>
+                                <td class="check-green">100</td>
                             </tr>
                             <tr>
                                 <td>Usuários</td>
-                                <td class="green">500</td>
+                                <td class="check-green">500</td>
                             </tr>
                             <tr>
                                 <td>Departamentos</td>
-                                <td class="green">200</td>
+                                <td class="check-green">200</td>
                             </tr>
                             <tr>
                                 <td>Chamados</td>
-                                <td class="green">ilimitados</td>
+                                <td class="check-green">ilimitados</td>
                             </tr>
                             <tr>
                                 <td>Exportação de dados</td>
@@ -364,7 +364,7 @@
                                 <td><i class="fa-solid fa-check" style="color: #48bb78;"></i></td>
                             </tr>
                             <tr>
-                                <td>Integração com Active Directory, Open LDAP, Pop e Imap</td>
+                                <td>Integração com Active Directory</td>
                                 <td><i class="fa-solid fa-check" style="color: #48bb78;"></i></td>
                             </tr>
                             <tr>
@@ -397,7 +397,7 @@
 
             </div>                
 
-            
+        </div>
 
     </section>
 
@@ -449,10 +449,20 @@
 
     <footer>
 
+        <a href="#top" class="back-to-top"><i class="fa-solid fa-arrow-up-wide-short"></i></a>
+
       <div class="wrapper">
-        <a class="logo" href="#home"> <img src="logo.png" alt="imagem do logotipo"></a>
+        <a class="logo" href="#home"> <img src="img/logo.png" alt="imagem do logotipo"></a>
       </div>
 
+
+
+      <h6 class="wrapper">Siga-nos nas redes sociais</h6>
+      <div class="social-icons wrapper">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
 
         
 <nav class="navigation">
@@ -467,7 +477,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#recursos">Recursos</a>
+                <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#planos">Planos</a>
@@ -478,13 +488,13 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  MENU
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#funcionalidades">Funcionalidades</a></li>
+                  <li><a class="dropdown-item" href="#planos">Planos</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#contatenos">Contate-nos</a></li>
                 </ul>
               </li>
               
