@@ -470,6 +470,7 @@ footer h6{
   }
  }
 
+ /* correções de resposividade */
 @media (min-width: 476px) {
 
   body{
@@ -503,5 +504,13 @@ footer h6{
     justify-items: center;
   }
 
+  footer .navigation{
+    display: inline;
+    position: relative;
+    top: -5rem;
+    left: 1rem;
+    padding: 20px;
+    z-index: 1;
+  }
 
 }
