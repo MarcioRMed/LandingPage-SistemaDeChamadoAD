@@ -30,22 +30,13 @@ span{
 
 /* BOOTSTRAP CUSTOMIZAÇÃO------------------------------------------ */
 
-/* .nav-link:active{
-  color: #0077ff;
-} */
-
 .nav-link:hover {
   color: #0077ff;
-  /* background-color: #fff; */
 }
-
-
-
 
 .btn-primary{
   font-size: 16px;
   margin: 20px;
-    
 }
 
 .btn-outline-primary{
@@ -57,7 +48,6 @@ span{
   max-width: 1200px;
   margin:  auto;
   padding: 20px;
- 
 }
 
 /* Estilos do menu de navegação */
@@ -71,7 +61,6 @@ span{
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  
 }
 
 .navigation .logo img {
@@ -86,7 +75,6 @@ span{
 height: 6rem; 
 }
 
-
 .clientes{
   display: flex;
   align-items: center;
@@ -94,18 +82,13 @@ height: 6rem;
   padding: 10px;
   background-color: #2c5e98;
   flex-wrap: wrap;
-
 }
-
-
 
 .clientes .image-gallery__image {
   width: 150px; /* Defina o tamanho desejado para as imagens */
   height: auto; /* Mantém a proporção da imagem */
-padding: 10px;
+  padding: 10px;
 }
-
-
 
 /* HOME---------------------------------------------- */
 
@@ -121,12 +104,11 @@ padding: 10px;
   display: flex;
   padding-top: 3rem;
   align-items: center;
-    
 }
 
 #home .col-a{
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: 1rem;
@@ -143,10 +125,8 @@ max-height:100%;
 border-radius: 10px;
 }
 
-
-
 #home h2 {
-   font-size: 48px;
+  font-size: 48px;
   margin-bottom: 2rem;
 }
 
@@ -156,6 +136,7 @@ border-radius: 10px;
   color: #888;
   margin-bottom: 2rem;
 }
+
 #home h4 {
   /* display: flex; */
   font-size: 1.1rem;
@@ -163,15 +144,12 @@ border-radius: 10px;
   margin-bottom: 1rem;
 }
 
-
 /* funcionalidades---------------------------------------------- */
 
 #funcionalidades{
-
   align-items: center;
   justify-content: center;
   background-color: #f2f2f2;
-
 }
 
 #funcionalidades .section{
@@ -195,7 +173,6 @@ border-radius: 10px;
   color: #888;
 }
 
-
 #funcionalidades li i{
   padding:10px;
   padding-bottom: 10px;
@@ -205,8 +182,6 @@ border-radius: 10px;
 #funcionalidades ul{
   list-style: none;
 }
-
-
 
 #funcionalidades img{
   width: 250px;
@@ -221,9 +196,7 @@ border-radius: 10px;
   background-color: #2c5e98;
   flex-wrap: wrap;
   align-items: center;
-
 }
-
 
 #funcionalidades .col-a{
   display: flex;
@@ -249,7 +222,6 @@ border-radius: 10px;
 
 #planos .section{
   display: flex;
-  /* align-items: center; */
  }
 
 #planos .section i{
@@ -264,18 +236,15 @@ border-radius: 10px;
   padding: 2rem;
   margin: 0,5rem;  
   flex-wrap: wrap;
-  
   align-items: flex-end;
   justify-items: flex-end;
 }
 
 .card1,  .card2, .card3 {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: auto;
- 
   background-color:  rgb(0, 58, 123);
- 
   
   border-radius: 8px;
   padding: 1rem;
@@ -283,8 +252,6 @@ border-radius: 10px;
   align-items: center;
   justify-items: center;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.7);
- 
-  
 }
 
 
@@ -324,7 +291,6 @@ border-radius: 10px;
   align-items: center;
   font-size: 56px;
   padding-bottom: 10px;
-
 }
 
 .cards p{
@@ -340,8 +306,7 @@ border-radius: 10px;
 
 .card table td{
   padding: 8px;
-  
-} 
+ } 
 
 #planos .check-green{
   display: flex;
@@ -350,20 +315,14 @@ border-radius: 10px;
   justify-content: center;
 }
 
-
-
 /* CONTATE-NOS---------------------------------------------- */
 
-
 #contatenos{
-  /* height: 500px; */
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f2f2f2;
 }
-
-
 
 #contatenos .section{
   display: flex;
@@ -376,11 +335,9 @@ border-radius: 10px;
   padding: 20px;
 }
 
-
 #contatenos h1 {
   font-size: 2rem;
   margin-bottom: 10px;
-  
 }
 
 #contatenos h2 {
@@ -397,14 +354,7 @@ border-radius: 10px;
   color: #888;
 }
 
-
-
-
-
-
-
 /* FOOTER---------------------------------------------- */
-
 
 footer{
   background-color: #333;
@@ -431,7 +381,6 @@ padding: 1rem;
 background-color:#333;
 
 }
-
 
 footer .back-to-top {
   position: fixed;
@@ -468,7 +417,6 @@ footer h6{
   align-items: flex-end;
   flex-direction: column;
   color: #fff;
-
 }
 
 .whatsapp-icon {
@@ -521,16 +469,10 @@ footer h6{
    transform: translate(0);
   }
  }
- 
-
-
-
 
 @media (min-width: 476px) {
 
   body{
-    /* font-size: 14px; */
-    /* background-color: red; */
     width: 100%;
   }
 
@@ -542,7 +484,6 @@ footer h6{
     width: 3rem;
     background-color: #f2f2f2;
     border-radius: 0.5rem;
-    
   }
   #home h2{
     font-size: 2em;
@@ -554,7 +495,6 @@ footer h6{
 
   #planos .cards{
     display: flex;
-    /* width: 100vw ; */
     padding: 2rem;
     margin: 0,5rem;  
     flex-wrap: wrap;
