@@ -403,6 +403,7 @@ footer .back-to-top {
 .social-icons {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 20px;
 }
 
 .social-icon {
@@ -471,7 +472,7 @@ footer h6{
  }
 
  /* correções de resposividade */
-@media (min-width: 411px) {
+@media (min-width: 375px) {
 
   body{
     width: 100%;
@@ -507,7 +508,8 @@ footer h6{
   footer .navigation{
     display: inline;
     position: relative;
-    top: -4rem;
+    margin-top: 10px;
+    top: -5rem;
     left: 1rem;
     padding: 20px;
     z-index: 1;
@@ -516,6 +518,7 @@ footer h6{
   footer .btn-primary{
     font-size: 16px;
     margin: 0px 40px;
+    
   }
 }
 
