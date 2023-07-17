@@ -471,8 +471,27 @@ footer h6{
   }
  }
 
- /* correções de resposividade */
+
+
+
+
+
+
+
+ /* ----------- correções de resposividade ------------- */
 @media (min-width: 375px) {
+
+/* -------------------- corrigindo o menu sanduiche -------------------- */
+/* após o uso do modal do bootstrap deixou de funcionar */
+
+.fa-bars{
+  border: 1px solid #a3a3a3;
+  padding: 10px;
+}
+  
+
+} 
+
 
   body{
     width: 100%;
@@ -520,14 +539,13 @@ footer h6{
     margin: 0px 40px;
     
   }
-}
 
 
-@media (max-width: 768px) {
+
+@media (min-width: 768px) {
   .navbar-collapse {
       background-color: #333;
       margin: 20px;
-      padding: 50px; 
       z-index: 9999; 
   }
 }

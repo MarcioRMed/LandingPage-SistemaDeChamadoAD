@@ -11,7 +11,7 @@ document.head.appendChild(script);
 
 document.addEventListener('DOMContentLoaded', function() {
   const menuIcon = document.querySelector('.navbar-toggler');
-  const navbarCollapse = document.querySelector('.navbar-collapse');
+  const navbarCollapse = document.querySelector('.navbarcollapse');
 
   menuIcon.addEventListener('click', function() {
     if (navbarCollapse.classList.contains('show')) {
