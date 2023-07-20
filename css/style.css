@@ -30,7 +30,7 @@ span{
 
 /* BOOTSTRAP CUSTOMIZAÇÃO------------------------------------------ */
 
-.nav-link:hover {
+a.nav-link:hover {
   color: #0077ff;
 }
 
@@ -211,6 +211,78 @@ border-radius: 10px;
   color: #fff;
   text-align: center;
 }
+
+/* DEPOIMENTOS ---------------------------------------- */
+
+#depoimentos{
+  align-items: center;
+  justify-content: center;
+  background-color: #a2a2a2;
+}
+
+#depoimentos .section{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#depoimentos .section i{
+  font-size: 54px;
+  padding: 20px;
+}
+
+#depoimentos h5 {
+  color:  #003a7b;
+  font-weight: 600;
+}
+
+#depoimentos h3{
+  font-size: 1rem;
+  color: #888;
+}
+
+
+#depoimentos .card{
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 33%;
+  align-items: center;
+  background-color: #e1e1e1;
+  margin: 10px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+#depoimentos .card cite{
+  padding-bottom: 10px;
+}
+
+#depoimentos .card img{
+  width: 100px;
+  height: 100px;
+  border-radius: 20% ;
+  padding-bottom: 10px ;
+  
+  overflow: hidden;
+  object-fit: cover;
+  
+}
+
+.rating{
+  font-size: 20px;
+  color:gold;
+}
+
+.testimonials-text{
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 
 /* PLANOS---------------------------------------------- */
 
@@ -525,6 +597,8 @@ footer h6{
     justify-items: center;
   }
 
+
+
   footer .navigation{
     display: inline;
     position: relative;
@@ -535,11 +609,7 @@ footer h6{
     z-index: 1;
   }
 
-  /* footer .btn-primary{ 
-    font-size: 10px;
-    /* margin: 0px 40px; */
     
-  /* } */ */
   
   footer .navigation .wrapper .btn-primary {
     display: flex;
@@ -547,7 +617,6 @@ footer h6{
     font-size: 12px;
   
 }
- 
 
 
 
@@ -558,4 +627,19 @@ footer h6{
     z-index: 9999; 
       padding: 50px;
   }
+
+  #depoimentos .testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+  }
+  
+  #depoimentos .card{
+    width: 75%;
+  }
+
+
+
 }
