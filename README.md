@@ -1,3 +1,13 @@
+    <link rel="stylesheet" href="./css/fontAwesome.css">
+
+
+# Meu Projeto :rocket:
+
+<i class="fa fa-github"></i> Descrição do meu projeto.
+
+
+
+
 # LandingPage - Sistema Help Desk
 
 ## Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
@@ -15,7 +25,7 @@ Senac RS Pelotas
 https://marciormed.github.io/LandingPageSistemaDeChamado/
 <br>
 
-
+:rocket:
 ## Desafio
 <br>
 
