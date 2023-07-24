@@ -55,14 +55,12 @@
 
     <style>
         .modal{
-          --mdb-modal-width: 80vw;
-          
+          --mdb-modal-width: 70vw;          
         }
         
         .nav-dark{
             --mdb-navbar-toggler-icon-bg:#red; 
             --bs-dark-rgb: #red;
-            /* background-color: red; */
         }
        
    
@@ -70,12 +68,12 @@
       </style>
 
 
-<!-- Modal cadastre-se -->
+<!-- Modal CADASTRE-SE ---------------------------------------------->
     <div class="container">
 
  
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalCadastrese" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -206,7 +204,7 @@
       </div>
 <!-- Modal cadastre-se fim -->
 
-<!-- Modal LOGIN -->
+<!-- Modal LOGIN --------------------------------------------------->
     <div class="container">
 
  
@@ -215,7 +213,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Regestre-se</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
             <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -254,23 +252,10 @@
                           border-radius: 25px;
                           padding: 5px;
                         ">
-                        <h2 class="fw-bold mb-5">Registre-se agora</h2>
+                        <h2 class="fw-bold mb-5">Login</h2>
                         <form>
-                          <!-- 2 column grid layout with text inputs for the first and last names -->
-                          <div class="row">
-                            <div class="col-md-6 mb-4">
-                              <div class="form-outline">
-                                <input type="text" id="form3Example1" class="form-control" />
-                                <label class="form-label" for="form3Example1">Digite seu nome:</label>
-                              </div>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                              <div class="form-outline">
-                                <input type="text" id="form3Example2" class="form-control" />
-                                <label class="form-label" for="form3Example2">Digite seu Sobrenome:</label>
-                              </div>
-                            </div>
-                          </div>
+                        
+                           
               
                           <!-- Email input -->
                           <div class="form-outline mb-4">
@@ -284,13 +269,7 @@
                             <label class="form-label" for="form3Example4">Digite sua senha:</label>
                           </div>
               
-                          <!-- Checkbox -->
-                          <div class="form-check d-flex justify-content-center mb-4">
-                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                            <label class="form-check-label" for="form2Example33">
-                             Inscreva-se em nosso boletim informativo
-                            </label>
-                          </div>
+                         
               
                           <!-- Submit button -->
                           <button type="submit" class="btn btn-primary btn-block mb-4">
@@ -340,7 +319,7 @@
       </div>
     </div>
       </div>
-<!-- Modal cadastre-se fim -->
+<!-- Modal Login fim -->
 
 
 
@@ -389,7 +368,7 @@
           
           
                   <!-- modal cadastre-se -->
-                  <button class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal" >Cadastre-se</button>
+                  <button class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#modalCadastrese" >Cadastre-se</button>
                   
                   <!-- modal login -->
                   <button class="btn btn-outline-primary" data-mdb-toggle="modal" data-mdb-target="#modalLogin" >Login</button>
