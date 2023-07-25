@@ -1,4 +1,4 @@
-# LandingPage - Sistema Help Desk
+# :house: LandingPage - Sistema Help Desk
 
 ## :computer: Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
 
