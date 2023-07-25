@@ -39,7 +39,7 @@ Cada aluno da turma irá simular a função de web developer, que recebeu uma de
 
 <br>
 
-Contato: 
+:postbox: Contato: 
 
 - [CV](https://marciormed.github.io/Cv_Dev/cv)
 
