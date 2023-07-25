@@ -1,10 +1,10 @@
 # LandingPage - Sistema Help Desk
 
-## Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
+## :computer: Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
 
 <br>
 
-### Projeto Final do 1º semestre - Desenvolvimento de interface para Web  
+### :trophy: Projeto Final do 1º semestre - Desenvolvimento de interface para Web  
 
 Análise e Desenvolvimento de Sistemas
 
@@ -16,7 +16,7 @@ https://marciormed.github.io/LandingPageSistemaDeChamado/
 <br>
 
 
-## <i class="fa fa-flag-checkered"></i> Desafio
+## :dart: Desafio
 <br>
 
 Cada aluno da turma irá simular a função de web developer, que recebeu uma demanda de uma landing page de um cliente. O aluno irá desempenhar todas as tarefas necessárias para a criação do trabalho, seguindo regras e fases estabelecidas.
