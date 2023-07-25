@@ -1,6 +1,6 @@
 # :house: LandingPage - Sistema Help Desk
 
-## :computer: Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
+## :computer: Utilizando HTML, CSS, JAVASCRIPT e Bootstrap e totalmente responsivo.
 
 <br>
 
@@ -35,7 +35,7 @@ Cada aluno da turma irá simular a função de web developer, que recebeu uma de
 
 
 
-### Tecnologias Utilizadas: HTML, CSS e Bootstrap.
+### Tecnologias Utilizadas: HTML, CSS, JAVASCRIPT e Bootstrap.
 
 <br>
 
