@@ -1,13 +1,3 @@
-    <link rel="stylesheet" href="./css/fontAwesome.css">
-
-
-# Meu Projeto :rocket:
-
-<i class="fa fa-github"></i> Descrição do meu projeto.
-
-
-
-
 # LandingPage - Sistema Help Desk
 
 ## Utilizando HTML, CSS e Bootstrap e totalmente responsivo.
@@ -25,8 +15,8 @@ Senac RS Pelotas
 https://marciormed.github.io/LandingPageSistemaDeChamado/
 <br>
 
-:rocket:
-## Desafio
+
+## <i class="fa fa-flag-checkered"></i> Desafio
 <br>
 
 Cada aluno da turma irá simular a função de web developer, que recebeu uma demanda de uma landing page de um cliente. O aluno irá desempenhar todas as tarefas necessárias para a criação do trabalho, seguindo regras e fases estabelecidas.
